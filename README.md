@@ -1,4 +1,6 @@
-# Source code of [icyfry.io](www.icyfry.io)
+# Source code of [icyfry.io](https://www.icyfry.io)
+
+[![Build and deploy](https://github.com/icyfry/icyfry.io/actions/workflows/deploy-prod.yml/badge.svg?branch=main)](https://github.com/icyfry/icyfry.io/actions/workflows/deploy-prod.yml) <img src="https://img.shields.io/github/languages/top/icyfry/icyfry.io" />
 
 ## Development
 
@@ -9,4 +11,5 @@
 
 ## Tools
 
-* https://taskfile.dev/#/installation
+* [vue.js](https://fr.vuejs.org/index.html)
+* [taskfile.dev](https://taskfile.dev/#/installation)

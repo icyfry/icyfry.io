@@ -1,15 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/pusheen_1.gif" />
-  <Links head="icyfry.io" />
+  <img alt="pusheen" src="./assets/pusheen_1.gif" />
+  <Links head="" />
+  <Footer />
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Links from "./components/Links.vue";
+import Footer from "./components/Footer.vue";
 
 @Options({
   components: {
     Links,
+    Footer,
   },
 })
 export default class App extends Vue {}
