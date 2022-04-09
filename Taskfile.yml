@@ -1,0 +1,21 @@
+version: '3'
+
+dotenv: ['.env.local','.env']
+
+tasks:
+  setup:
+    cmds:
+      - npm install
+  serve:
+    cmds:
+      - npm run serve
+  build:
+    cmds:
+      - npm run lint
+      - npm run build
+  deploy-prod:
+    cmds:
+      - aws s3 sync ./dist/ {{.S3_PROD}} --delete
+  deploy-staging:
+    cmds:
+      - aws s3 sync ./dist/ {{.S3_STAGING}} --delete
