@@ -20,6 +20,8 @@ tasks:
   deploy-prod:
     cmds:
       - aws s3 sync ./dist/ {{.S3_PROD}} --delete
+      - aws cloudfront create-invalidation --distribution-id {{.CDN_PROD}} --paths /
   deploy-staging:
     cmds:
       - aws s3 sync ./dist/ {{.S3_STAGING}} --delete
+      - aws cloudfront create-invalidation --distribution-id {{.CDN_STAGING}} --paths /
