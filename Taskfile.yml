@@ -10,12 +10,13 @@ tasks:
     cmds:
       - npm run dev
   build:
+    deps: [fix]
     cmds:
-      - npm run lint
       - npm run build
-  lint:
+  fix:
     cmds:
-      - npm run lint
+      - npm run lint-fix
+      - npm audit fix
   deploy-prod:
     cmds:
       - aws s3 sync ./dist/ {{.S3_PROD}} --delete

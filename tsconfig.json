@@ -18,6 +18,7 @@
         "src/*"
       ]
     },
+    "types" : ["node"/*, "webpack-env"*/],
     "lib": [
       "esnext",
       "dom",
