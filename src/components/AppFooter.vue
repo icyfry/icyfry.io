@@ -27,6 +27,7 @@ a {
   color: #42b983;
 }
 .footer {
+  margin-top: 20px;
   padding-top: 11px;
   padding-bottom: 7px;
   background-color: #dddddd;
