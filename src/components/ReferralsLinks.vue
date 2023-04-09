@@ -1,15 +1,20 @@
 <template>
-  <div class="links">
-    <h1>{{ head }}</h1>
-    <br />
-    <br />
-  </div>
+    <h1>Referrals links</h1>
+    <ul>
+      <li>
+        <a href="https://www.binance.com/fr/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00DK0YZKPW">
+          <img src="https://img.shields.io/badge/Binance-CPA_00DK0YZKPW-F0B90B?style=for-the-badge&logo=binance" />
+        </a>
+      </li>
+      <li>
+        <a href="https://fr.tradingview.com/gopro/?share_your_love=icyfry">
+          <img src="https://img.shields.io/badge/Tradingview-icyfry-black?style=for-the-badge" />
+        </a>
+      </li>
+    </ul>
 </template>
 
 <script setup lang="ts">
-defineProps({
-  head: String
-})
 </script>
 
 <style scoped>

@@ -1,14 +1,18 @@
 <template>
   <AppHeader />
-  <img class="animated-gif" alt="pusheen" src="./assets/pusheen_2.gif" />
-  <!-- <ReferralsLinks head="Referrals Links" /> -->
+    <!--
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/referrals">Referrals</router-link>
+    </div>
+    -->
+    <router-view />
   <AppFooter />
 </template>
 
 <script setup lang="ts">
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
-// import ReferralsLinks from './components/ReferralsLinks.vue'
 </script>
 
 <style>

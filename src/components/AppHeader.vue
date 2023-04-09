@@ -1,6 +1,8 @@
 <template>
   <div class="header">
-    <h1>icyfry.io</h1>
+    <router-link to="/">
+      <h1>icyfry.io</h1>
+    </router-link>
   </div>
 </template>
 
@@ -16,7 +18,8 @@ h1 {
   margin: 0px;
 }
 a {
-  color: #42b983;
+  color: white;
+  text-decoration: none;
 }
 .header {
   padding: 2px;
