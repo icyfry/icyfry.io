@@ -1,5 +1,5 @@
 <template>
-  <img class="animated-gif" alt="pusheen" src="pusheen_2.gif" />
+  <img class="animated-gif" alt="pusheen" src="/pusheen_2.gif" />
 </template>
 
 <script setup lang="ts">
