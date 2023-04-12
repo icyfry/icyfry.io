@@ -7,6 +7,11 @@
         </a>
       </li>
       <li>
+        <a href="https://dydx.exchange/r/FGCLVZGA">
+          <img src="https://img.shields.io/badge/dydx-FGCLVZGA-5973FE?style=for-the-badge" />
+        </a>
+      </li>
+      <li>
         <a href="https://fr.tradingview.com/gopro/?share_your_love=icyfry">
           <img src="https://img.shields.io/badge/Tradingview-icyfry-black?style=for-the-badge" />
         </a>

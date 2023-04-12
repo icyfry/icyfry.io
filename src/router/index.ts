@@ -10,7 +10,7 @@ const routes: RouteRecordRaw[] = [
     props: true
   },
   {
-    path: '/referrals',
+    path: '/r',
     name: 'Referrals',
     component: ReferralsView,
     props: true

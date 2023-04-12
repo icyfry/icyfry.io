@@ -3,7 +3,7 @@
     <!--
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/referrals">Referrals</router-link>
+      <router-link to="/r">Referrals</router-link>
     </div>
     -->
     <router-view />
