@@ -1,0 +1,19 @@
+version: '3'
+
+dotenv: ['.env.local','.env']
+
+tasks:
+  setup:
+    cmds:
+      - pnpm install
+  dev:
+    cmds:
+      - pnpm run dev
+  build:
+    deps: [fix]
+    cmds:
+      - pnpm run build
+  fix:
+    cmds:
+      # - pnpm run lint-fix
+      - pnpm audit fix
