@@ -3,6 +3,7 @@
     <a href="https://github.com/icyfry/icyfry.io">
       <img
         src="https://img.shields.io/badge/Github-icyfry.io-green?style=for-the-badge&logo=github"
+        alt="github"
       />
     </a>
   </div>
