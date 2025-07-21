@@ -12,5 +12,6 @@ Source code of [icyfry.io](https://icyfry.io/) website
 
 ## Tools
 
-* [vue.js](https://vuejs.org/index.html)
-* [taskfile.dev](https://taskfile.dev/#/installation)
+* [Vue.js](https://vuejs.org/index.html)
+* [Vite](https://vite.dev/)
+* [Taskfile](https://taskfile.dev/)
