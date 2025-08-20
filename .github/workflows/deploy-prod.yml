@@ -28,7 +28,7 @@ jobs:
         run_install: false
 
     - name: Installing project dependencies
-      run: pnpm install
+      run: pnpm i --frozen-lockfile
 
     - name: Building the project
       run: pnpm run build
@@ -36,7 +36,7 @@ jobs:
     - name: SonarCloud Scan
       uses: SonarSource/sonarqube-scan-action@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
 
     - name: Deploy static site to S3 bucket
